@@ -1,0 +1,93 @@
+----------------
+No of descriptors
+----------------
+     1
+
+lowest RMSE Index
+    59
+
+lowest RMSE
+    0.6873
+
+MAE
+    0.5168
+
+MaxAE
+    2.3749
+
+Descriptors
+    '||(Hs-Hf)/Oxv|*CMB|'
+
+Descriptor Index
+      269944
+
+Coefficients
+   -0.1507
+
+Intercept
+   -0.3962
+
+----------------
+No of descriptors
+----------------
+     2
+
+lowest RMSE Index
+        1799
+
+lowest RMSE
+    0.5586
+
+MAE
+    0.4463
+
+MaxAE
+    2.0824
+
+Descriptors
+    '|(m_EA)^r*|(Hs-Hf)/Oxv||'
+    '|(|m_LUMO/s_LUMO|)^I*|(Hs-Hf)/Oxv||'
+
+Descriptor Index
+      188318      237290
+
+Coefficients
+   -0.4839
+   -1.1756
+
+Intercept
+   -0.0770
+
+----------------
+No of descriptors
+----------------
+     3
+
+lowest RMSE Index
+       35693
+
+lowest RMSE
+    0.5028
+
+MAE
+    0.4126
+
+MaxAE
+    1.4196
+
+Descriptors
+    '|(|m_ion_2/|m_ion_2-s_ion_4||)^I*(|m_n13-s_n13|)^2|'
+    '|(m_EA)^r*|(Hs-Hf)/Oxv||'
+    '|(|m_LUMO/s_LUMO|)^I*|(Hs-Hf)/Oxv||'
+
+Descriptor Index
+      128391      188318      237290
+
+Coefficients
+   -2.1228
+   -0.3206
+   -1.0850
+
+Intercept
+   -0.3279
+
