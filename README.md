@@ -1,5 +1,20 @@
 # Metal-Oxide-LASSO-lo
 
+Code written by 
+ A S M Jonayat
+ Ph.D. Candidate
+ Dept. of Mechanical and Nuclear Engineering
+ The Pennsylvania State University, University Park - 16802
+ 
+Distributed as part of the publication - 
+Interaction trends between single metal atoms and oxide supports identified with density functional theory and statistical learning
+Nolan J. O’Connor, A S M Jonayat, Michael J. Janik*, Thomas P. Senftle*
+
+Department of Chemical Engineering, bDepartment of Mechanical and Nuclear Engineering, The Pennsylvania State University, University Park, PA 16802 (USA)
+ Department of Chemical and Biomolecular Engineering, Rice University, Houston, TX 77005 (USA)
+ *mjanik@engr.psu.edu
+ *tsenftle@rice.edu
+
 The Code is devided into three parts - 
 
 1. Step 1: Read excel file with primary descriptors and generate secondary dataset
