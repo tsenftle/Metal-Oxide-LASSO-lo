@@ -19,7 +19,7 @@ The Code is devided into three parts -
 
 1. Step 1: Read excel file with primary descriptors and generate secondary dataset
 2. Step 2: Use LASSO to find out top descriptors for Binding energy 
-3. Step 3: Use lo (1D-5D) regression to find best (1D-5D) descriptors. 
+3. Step 3: Use lo regression to find best 1D-5D descriptors. 
 
 All files are provided in this directory. 
 
