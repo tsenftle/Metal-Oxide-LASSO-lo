@@ -7,7 +7,7 @@
 % 
 % Distributed as part of the publication - 
 % Interaction trends between single metal atoms and oxide supports identified with density functional theory and statistical learning
-% Nolan J. O’Connor, A S M Jonayat, Michael J. Janik*, Thomas P. Senftle*
+% Nolan J. Oâ€™Connor, A S M Jonayat, Michael J. Janik*, Thomas P. Senftle*
 
 % Department of Chemical Engineering, bDepartment of Mechanical and Nuclear Engineering, The Pennsylvania State University, University Park, PA 16802 (USA)
 % Department of Chemical and Biomolecular Engineering, Rice University, Houston, TX 77005 (USA)
@@ -34,8 +34,10 @@ P_c_temp = BE_eV;
 P_c = P_c_temp - mean(P_c_temp);
 
 % initial LASSO run to get max lambda
-[fit_b_t,fit_info_t]=lasso(D_Total_s,P_c,'Alpha',1,'Standardize',false);
-
+#[fit_b_t,fit_info_t]=lasso(D_Total_s,P_c,'Alpha',1,'Standardize',false);
+lm_max=max(abs(transpose(D_Total_s)*P_c))/length(P_c);
+disp('lambda_max')
+disp(lm_max)
 
 %% Initial Lasso done
 disp('Initializing LASSO run with varying lamda value');
