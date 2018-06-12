@@ -42,7 +42,7 @@ disp(lm_max)
 %% Initial Lasso done
 disp('Initializing LASSO run with varying lamda value');
 
-lda = logspace(-3,0,100)*fit_info_t.Lambda(end);
+lda = logspace(-3,0,100)*lm_max;
 [fit_b,fit_info]=lasso(D_Total_s,P_c,'Alpha',1,'lambda',lda,'Standardize',false);
 dm=size(fit_b);
 
