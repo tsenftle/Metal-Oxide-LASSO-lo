@@ -34,7 +34,7 @@ P_c_temp = BE_eV;
 P_c = P_c_temp - mean(P_c_temp);
 
 % initial LASSO run to get max lambda
-#[fit_b_t,fit_info_t]=lasso(D_Total_s,P_c,'Alpha',1,'Standardize',false);
+%[fit_b_t,fit_info_t]=lasso(D_Total_s,P_c,'Alpha',1,'Standardize',false);
 lm_max=max(abs(transpose(D_Total_s)*P_c))/length(P_c);
 disp('lambda_max')
 disp(lm_max)
