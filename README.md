@@ -10,7 +10,8 @@ Distributed as part of the publication -
 Interaction trends between single metal atoms and oxide supports identified with density functional theory and statistical learning
 Nolan J. O’Connor, A S M Jonayat, Michael J. Janik*, Thomas P. Senftle*
 
-www.nature.com/articles/s41929-018-0094-5
+Full Article: www.nature.com/articles/s41929-018-0094-5
+Read Only: https://rdcu.be/2kdc
 
 Department of Chemical Engineering, Department of Mechanical and Nuclear Engineering, The Pennsylvania State University, University Park, PA 16802 (USA)
 Department of Chemical and Biomolecular Engineering, Rice University, Houston, TX 77005 (USA)
